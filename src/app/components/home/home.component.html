@@ -1,0 +1,42 @@
+<div class="navbar">
+    <div class="container" style="display: flex;">
+        <div class="container" style="display: flex">
+            <div class="filter-label">
+                Kategori:
+            </div>
+            <div class="dropdown">
+                <div style="display:inline">
+                    <button class="dropbtn" style="margin-left:-16px">Tümü
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Tümü</a>
+                        <a href="#">Programlama</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="filter-label">Eğitmen:
+            </div>
+            <div class="dropdown">
+                <div style="display:inline">
+                    <button class="dropbtn" style="margin-left:-16px">Tümü
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Tümü</a>
+                        <a href="#">Engin Demiroğ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Kurs Bul">
+
+            <button aria-label="Search Courses" id="search-course-button" class="btn search btn-default btn-lg"
+                type="submit"><i class="fa fa-search" title="Search"></i></button>
+        </form>
+    </div>
+</div>
+<app-course-card></app-course-card>
